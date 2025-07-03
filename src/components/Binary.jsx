@@ -62,7 +62,7 @@ const Binary = () => {
       </ul>
 
       {history.length === 10 && (
-        <button className="btn" onClick={clearHistory} style={{ marginTop: "20px", padding: "10px 20px", cursor: "pointer" }}>
+        <button className="btn" onClick={clearHistory} style={{ marginTop: "20px", marginBottom: "30px", padding: "10px 20px", cursor: "pointer" }}>
           Delete History
         </button>
       )}
