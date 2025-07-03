@@ -53,20 +53,21 @@
     margin-top: 10px;
   }
   
-  h3 {
-    margin-top: 15px;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 10px;
-    border: 2px solid #000;
-  }
-  
-  li {
-    font-size: 18px;
-    margin: 5px 0px;
-  }
+ h3 {
+  margin-top: 15px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0; /* Remove padding from ul (let li handle spacing) */
+}
+
+li {
+  font-size: 18px;
+  margin: 5px 0;
+  padding: 10px; /* Move padding here */
+  border: 2px solid #000; /* Move border here */
+}
   
 @keyframes flipInY {
     from {
